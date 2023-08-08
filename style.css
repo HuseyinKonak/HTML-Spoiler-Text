@@ -1,0 +1,11 @@
+.spoiler {
+    border-radius: 5px;
+    cursor: pointer;
+    color: unset;
+}
+
+.spoiler.active,
+.spoiler.active::selection {
+    color: transparent;
+    text-shadow: 0 0 8px #000;
+}
